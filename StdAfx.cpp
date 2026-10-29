@@ -1,0 +1,12 @@
+// stdafx.cpp : source file that includes just the standard includes
+//	project.pch will be the pre-compiled header
+//	stdafx.obj will contain the pre-compiled type information
+
+#include "stdafx.h"
+bool UserLogin =0  ;
+bool Tey =0  ;
+int View = 0;
+
+
+
+

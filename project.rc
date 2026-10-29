@@ -1,0 +1,800 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\project.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\project.ico"
+IDR_PROJECTYPE          ICON    DISCARDABLE     "res\\projectDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\03455F90E81B87D558179A7FCE0FEDD7.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\resIMG_9595(20231121-204157).bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\resIMG_9600(20231121-204315).bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\resIMG_9594(20231121-204145).bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\resIMG_9596(20231121-204208).bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\resIMG_9605(20231121-204525).bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\2af2c2fb04bed32429fe574276398662.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\resIMG_9602(20231121-204441).bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\asset_06.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\IMG_9784(20231201-213735).bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\asset_08.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "res\\asset_07.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "res\\asset_10.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "res\\asset_09.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "res\\IMG_9804(20231202-153240).bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "res\\IMG_9803(20231202-153229).bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save &As...",               ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "Print Pre&view",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print Set&up...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent Files",                    ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                    ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",            ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                  ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About project...",         ID_APP_ABOUT
+    END
+    POPUP "User Records"
+    BEGIN
+        MENUITEM "Add(&A)",                    ID_ADD
+        MENUITEM "Delete(&D)",                    ID_DEL
+        MENUITEM "Edit(&C)",                    ID_CHANGE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About project"
+FONT 9, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "project version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2023",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PROJECT DIALOG DISCARDABLE  0, 0, 224, 115
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Home"
+FONT 9, "MS Sans Serif"
+BEGIN
+    LTEXT           "Agricultural Tourism and Cultural Visit System",
+                    IDC_STATIC,12,15,200,22
+    GROUPBOX        "Choose a login option",IDC_STATIC,12,45,160,51
+    PUSHBUTTON      "Administrator",IDC_BUTTON1,20,66,76,15
+    PUSHBUTTON      "Visitor",IDOK,106,66,58,15
+    CONTROL         "Stop",IDC_BUTTON2,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    183,79,23,14
+    CONTROL         159,IDC_STATIC,"Static",SS_BITMAP,179,70,32,32
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 200, 104
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visitor Login"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Log in",IDOK,46,76,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,76,36,14
+    LTEXT           "Username:",IDC_STATIC,25,20,33,8
+    LTEXT           "Password:",IDC_STATIC,25,48,33,8
+    EDITTEXT        IDC_EDIT2,58,45,67,15,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "Show",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,134,34,46,11
+    PUSHBUTTON      "Register",IDC_BUTTON2,135,51,42,14
+    COMBOBOX        IDC_COMBO1,58,18,67,38,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ZHUCE DIALOG DISCARDABLE  0, 0, 153, 152
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Register"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Register",IDOK,20,118,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,87,117,50,14
+    LTEXT           "Username:",IDC_STATIC,20,16,33,8
+    LTEXT           "Password:",IDC_STATIC,20,41,33,8
+    EDITTEXT        IDC_EDIT1,53,13,72,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,53,39,72,15,ES_AUTOHSCROLL
+    LTEXT           "ID:",IDC_STATIC,20,66,33,8
+    LTEXT           "Phone:",IDC_STATIC,20,91,33,8
+    EDITTEXT        IDC_EDIT3,53,64,72,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,53,89,72,15,ES_AUTOHSCROLL
+END
+
+IDD_YOUKE DIALOG DISCARDABLE  0, 0, 174, 171
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visitor Menu"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,22,141,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,141,50,14
+    GROUPBOX        "Choose an option:",IDC_STATIC,22,19,133,111
+    PUSHBUTTON      "Book a Visit",IDC_BUTTON1,34,37,110,16
+    PUSHBUTTON      "Farming Culture",IDC_BUTTON2,34,69,110,16
+    PUSHBUTTON      "Agricultural Heritage",IDC_BUTTON3,34,100,110,16
+END
+
+IDD_GUANLI DIALOG DISCARDABLE  0, 0, 202, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Administrator Login"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,44,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,113,75,50,14
+    LTEXT           "Username:",IDC_STATIC,25,20,33,8
+    LTEXT           "Password:",IDC_STATIC,25,48,33,8
+    EDITTEXT        IDC_EDIT2,59,45,67,15,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,59,18,67,34,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Show",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,45,42,13
+END
+
+IDD_XINXI DIALOG DISCARDABLE  0, 0, 232, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Staff Information"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Add Staff",IDC_BUTTON_WORKER,170,13,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,183,120,35,15
+    PUSHBUTTON      "Edit",IDC_BUTTON_CHANGE,183,64,35,15
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,183,92,35,15
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,7,158,134
+END
+
+IDD_LURU DIALOG DISCARDABLE  0, 0, 193, 118
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Staff Details"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Add",IDOK,126,21,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,126,86,50,14
+    LTEXT           "Name:",IDC_STATIC,19,19,25,8
+    LTEXT           "ID:",IDC_STATIC,19,65,25,8
+    LTEXT           "Gender:",IDC_STATIC,19,42,25,8
+    LTEXT           "Salary:",IDC_STATIC,19,88,25,8
+    EDITTEXT        IDC_EDIT_NAME,45,17,62,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SEX,45,40,62,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUM,45,62,62,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WAGE,45,86,62,15,ES_AUTOHSCROLL
+END
+
+IDD_YUYUE DIALOG DISCARDABLE  0, 0, 187, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visit Booking"
+FONT 9, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,123,96,45,14
+    LISTBOX         IDC_LIST1,7,7,104,107,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Add",IDC_STATIC,116,13,58,37
+    PUSHBUTTON      "Booking Details",IDC_BUTTON_YUYUE,123,27,45,14
+END
+
+IDD_YYXX DIALOG DISCARDABLE  0, 0, 156, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Booking Details"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,19,135,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,86,135,50,14
+    GROUPBOX        "Enter booking details",IDC_STATIC,17,15,123,108
+    LTEXT           "Visitor:",IDC_STATIC,26,36,41,8
+    LTEXT           "Date: ",IDC_STATIC,26,56,41,8
+    LTEXT           "Time: ",IDC_STATIC,26,76,41,8
+    LTEXT           "Visitors: ",IDC_STATIC,26,96,41,8
+    EDITTEXT        IDC_EDIT_DATE,68,52,62,17,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,68,74,62,29,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NAME,68,31,62,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUM,68,93,62,17,ES_AUTOHSCROLL
+END
+
+IDD_NG DIALOG DISCARDABLE  0, 0, 236, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Farming Culture"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,39,141,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,144,141,50,14
+    LTEXT           "Farming shaped Chinese ways of life, thought and attachment to the land.",
+                    IDC_STATIC,143,15,83,52
+    LTEXT           "Like cultivating a field, progress in life comes through steady effort.",
+                    IDC_STATIC,143,76,76,51
+    CONTROL         "",IDC_OCX1,"{6BF52A52-394A-11D3-B153-00C04F79FAA6}",
+                    WS_TABSTOP,10,10,127,120
+END
+
+IDD_FY DIALOG DISCARDABLE  0, 0, 167, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Agricultural Heritage"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,118,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,96,118,50,14
+    GROUPBOX        "Choose a topic:",IDC_STATIC,18,17,134,87
+    PUSHBUTTON      "Bamboo Weaving",IDC_BUTTON1,44,38,79,18
+    PUSHBUTTON      "Traditional Farm Tools",IDC_BUTTON2,44,70,79,18
+END
+
+IDD_JDT DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Loading..."
+FONT 9, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    44,54,98,13
+    LTEXT           "Loading, please wait...",IDC_STATIC,34,36,128,12
+END
+
+IDD_ZB DIALOG DISCARDABLE  0, 0, 241, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bamboo Weaving"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,47,150,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,146,150,50,14
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP,12,10,117,74
+    LTEXT           "Bamboo symbolises integrity in Chinese culture. Traditional bamboo weaving reflects generations of skilled craft.",
+                    IDC_STATIC,136,19,92,57
+    LTEXT           "Artisans select and cut bamboo, split it into thin strips and smooth its edges. They weave these strips into useful and decorative objects by hand.",
+                    IDC_STATIC,10,87,216,41
+    LTEXT           "Their work preserves local memories and passes this traditional craft to future generations.",
+                    IDC_STATIC,10,129,216,19
+END
+
+IDD_NJ DIALOG DISCARDABLE  0, 0, 220, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Traditional Farm Tools"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,40,158,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,128,158,50,14
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,7,7,120,90
+    LTEXT           "Traditional farm tools reflect the skill and labour of farming communities. Their practical designs connect visitors with agricultural history.",
+                    IDC_STATIC,132,15,75,83
+    LTEXT           "Farm tools support work throughout the year: preparing soil in spring, watering and weeding in summer, harvesting in autumn and preparing fields for the next season in winter.",
+                    IDC_STATIC,12,101,198,58
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "project MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "project\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "project.EXE\0"
+            VALUE "ProductName", "project Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PROJECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 97
+    END
+
+    IDD_ZHUCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_YOUKE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_GUANLI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_XINXI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_LURU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_YUYUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_YYXX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_NG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_FY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_JDT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_ZB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_NJ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_GUANLI DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 8, 0
+0x6574, 0x6361, 0x6568, 0x0072, 
+    IDC_COMBO1, 0x403, 7, 0
+0xdcb9, 0xedc0, 0xb1d4, "\000" 
+    0
+END
+
+IDD_LOGIN DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 8, 0
+0x6574, 0x6361, 0x6568, 0x0072, 
+    IDC_COMBO1, 0x403, 4, 0
+0x7977, 0x0068, 
+    IDC_COMBO1, 0x403, 5, 0
+0x796f, 0x797a, "\000" 
+    0
+END
+
+IDD_YYXX DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 14, 0
+0x3a38, 0x3033, 0x2d20, 0x202d, 0x3131, 0x333a, 0x0030, 
+    IDC_COMBO1, 0x403, 15, 0
+0x3431, 0x303a, 0x2030, 0x2d2d, 0x3120, 0x3a37, 0x3030, "\000" 
+    0
+END
+
+IDD_NG DLGINIT
+BEGIN
+    IDC_OCX1, 0x376, 344, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x0008, 0x00b2, 0x0000, 0x0045, 0x003a, 
+0x005c, 0x004f, 0x006e, 0x0065, 0x0044, 0x0072, 0x0069, 0x0076, 0x0065, 
+0x005c, 0x684c, 0x9762, 0x005c, 0x7b2c, 0x516b, 0x7ec4, 0x005c, 0x0038, 
+0x005f, 0x63a2, 0x5bfb, 0x519c, 0x8015, 0x6587, 0x5316, 0xff0c, 0x4f53, 
+0x9a8c, 0x519c, 0x97f5, 0x4e4b, 0x7f8e, 0x005f, 0x9b4f, 0x96e8, 0x6657, 
+0x0020, 0x6b27, 0x9633, 0x6893, 0x73a5, 0x005f, 0x6e90, 0x4ee3, 0x7801, 
+0x005c, 0x0070, 0x0072, 0x006f, 0x006a, 0x0065, 0x0063, 0x0074, 0x005c, 
+0x0072, 0x0065, 0x0073, 0x005c, 0x0052, 0x0050, 0x0052, 0x0065, 0x0070, 
+0x006c, 0x0061, 0x0079, 0x005f, 0x0046, 0x0069, 0x006e, 0x0061, 0x006c, 
+0x0031, 0x0037, 0x0030, 0x0030, 0x0035, 0x0037, 0x0032, 0x0038, 0x0039, 
+0x0030, 0x002e, 0x004d, 0x0050, 0x0034, 0x0000, 0x0005, 0x0000, 0x0000, 
+0x0000, 0x3ff0, 0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0003, 0x0001, 0x0000, 0x000b, 
+0xffff, 0x0003, 0x0000, 0x0000, 0x000b, 0xffff, 0x0008, 0x0002, 0x0000, 
+0x0000, 0x0003, 0x0032, 0x0000, 0x000b, 0x0000, 0x0008, 0x000a, 0x0000, 
+0x0066, 0x0075, 0x006c, 0x006c, 0x0000, 0x000b, 0x0000, 0x000b, 0x0000, 
+0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x0008, 0x0002, 0x0000, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 0x1a40, 0x0000, 0x18ce, 
+0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE1               WAVE    DISCARDABLE     "res\\hu2y8-g8ew9 (2).wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "project\n\nProjec\n\n\nProject.Document\nProjec Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "project"
+    AFX_IDS_IDLEMESSAGE     "Idlemessage"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "Indicator Ext"
+    ID_INDICATOR_CAPS       "Indicator Caps"
+    ID_INDICATOR_NUM        "Indicator Num"
+    ID_INDICATOR_SCRL       "Indicator Scrl"
+    ID_INDICATOR_OVR        "Indicator Ovr"
+    ID_INDICATOR_REC        "Indicator Rec"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "File New"
+    ID_FILE_OPEN            "File Open"
+    ID_FILE_CLOSE           "File Close"
+    ID_FILE_SAVE            "File Save"
+    ID_FILE_SAVE_AS         "File Save As"
+    ID_FILE_PAGE_SETUP      "File Page Setup"
+    ID_FILE_PRINT_SETUP     "File Print Setup"
+    ID_FILE_PRINT           "File Print"
+    ID_FILE_PRINT_PREVIEW   "File Print Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "App About"
+    ID_APP_EXIT             "App Exit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "File Mru File1"
+    ID_FILE_MRU_FILE2       "File Mru File2"
+    ID_FILE_MRU_FILE3       "File Mru File3"
+    ID_FILE_MRU_FILE4       "File Mru File4"
+    ID_FILE_MRU_FILE5       "File Mru File5"
+    ID_FILE_MRU_FILE6       "File Mru File6"
+    ID_FILE_MRU_FILE7       "File Mru File7"
+    ID_FILE_MRU_FILE8       "File Mru File8"
+    ID_FILE_MRU_FILE9       "File Mru File9"
+    ID_FILE_MRU_FILE10      "File Mru File10"
+    ID_FILE_MRU_FILE11      "File Mru File11"
+    ID_FILE_MRU_FILE12      "File Mru File12"
+    ID_FILE_MRU_FILE13      "File Mru File13"
+    ID_FILE_MRU_FILE14      "File Mru File14"
+    ID_FILE_MRU_FILE15      "File Mru File15"
+    ID_FILE_MRU_FILE16      "File Mru File16"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Next Pane"
+    ID_PREV_PANE            "Prev Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Window Split"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Edit Clear"
+    ID_EDIT_CLEAR_ALL       "Edit Clear All"
+    ID_EDIT_COPY            "Edit Copy"
+    ID_EDIT_CUT             "Edit Cut"
+    ID_EDIT_FIND            "Edit Find"
+    ID_EDIT_PASTE           "Edit Paste"
+    ID_EDIT_REPEAT          "Edit Repeat"
+    ID_EDIT_REPLACE         "Edit Replace"
+    ID_EDIT_SELECT_ALL      "Edit Select All"
+    ID_EDIT_UNDO            "Edit Undo"
+    ID_EDIT_REDO            "Edit Redo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "View Toolbar"
+    ID_VIEW_STATUS_BAR      "View Status Bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Scsize"
+    AFX_IDS_SCMOVE          "Scmove"
+    AFX_IDS_SCMINIMIZE      "Scminimize"
+    AFX_IDS_SCMAXIMIZE      "Scmaximize"
+    AFX_IDS_SCNEXTWINDOW    "Scnextwindow"
+    AFX_IDS_SCPREVWINDOW    "Scprevwindow"
+    AFX_IDS_SCCLOSE         "Scclose"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Screstore"
+    AFX_IDS_SCTASKLIST      "Sctasklist"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Preview Close"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\project.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
